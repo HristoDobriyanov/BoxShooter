@@ -26,7 +26,7 @@ public class Controller : MonoBehaviour {
 		Vector3 movementX = Input.GetAxis("Horizontal") * Vector3.right * moveSpeed * Time.deltaTime;
 
 		// Convert combined Vector3 from local space to world space based on the position of the current gameobject (player)
-		Vector3 movement = transform.TransformDirection(movementZ+movementX);
+		Vector3 movement = transform.TransformDirection(movementZ + movementX);
 		
 		// Apply gravity (so the object will fall if not grounded)
 		movement.y -= gravity * Time.deltaTime;
