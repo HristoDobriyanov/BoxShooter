@@ -7,6 +7,7 @@ public class SizeModifier : MonoBehaviour
 {
     
     private bool grow = true;
+    public int maxGrow = 5;
 
     // Update is called once per frame
     void Update()
@@ -22,7 +23,7 @@ public class SizeModifier : MonoBehaviour
             resize = resize * 0.97f;
         }
 
-        if (resize.x > 5 || resize.x < 1)
+        if (resize.x > maxGrow || resize.x < 1)
         {
             grow = !grow;
         }
