@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxShooter.Plugins", "BoxShooter.Plugins.csproj", "{BAF6B18E-39F7-F14D-1897-69CEF2B43343}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxShooter", "BoxShooter.csproj", "{F96FF892-200E-2599-2B4D-084430E79783}"
